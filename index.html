@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .zoom {
+                transition: transform 0.3s ease; /* Suaviza a transição */
+            }
+            
+            .zoom:hover {
+                transform: scale(1.2); /* Aumenta a imagem em 20% */
+            }
+
+            .text p {
+                color: initial; /* Define a cor inicial do texto */
+                transition: color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <header>
+            <figure onclick="reloadPage()">
+                <img class="intro-img" src="intro.png" alt="introimg">
+            </figure>
+
+            <h1 class="portfólio">-- PORTFÓLIO --</h1>
+
+
+            <figure onclick="hideIntroduction(); hideAlg(); loadPage('profile.html')">
+                <img class="prof" src="prof.png" alt="profimg">
+            </figure>
+
+           
+        </header>
+
+        <br><br><br>
+
+        <div class="image-container">
+            <figure class="zoom" onclick="changeTextColor('.text1'); loadPage('AI.html'); showIntroduction(); hideAlg();">
+                <img class="img1" src="robot.png" alt="Imagem 1">
+                <figcaption class="text1"><p>Automação Industrial</p></figcaption>
+            </figure>
+
+            <figure class="zoom" onclick="changeTextColor('.text2'); loadPage('Web.html'); showIntroduction(); hideAlg();">    
+                <img class="img2" src="web.png" alt="Imagem 2">
+                <figcaption class="text2"><p>Desenvolvimento Web</p></figcaption>
+            </figure>
+
+            <figure class="zoom" onclick="changeTextColor('.text3');loadPage('BancoDados.html'); showIntroduction(); hideAlg();">
+                <img class="img3" src="sql.png" alt="Imagem 3">           
+                <figcaption class="text3"><p>Banco de Dados</p></figcaption>
+            </figure>
+
+            <figure class="zoom" onclick="changeTextColor('.text4'); loadPage('LP.html'); showIntroduction(); hideAlg();">
+                <img class="img4" src="programming.png" alt="Imagem 4">
+                <figcaption class="text4"><p>Linguagem de Programação</p></figcaption>
+            </figure>
+            
+            <figure class="zoom" onclick="changeTextColor('.text5'); loadPage('DataScience.html');showIntroduction(); hideAlg();">
+                <img class="img5" src="data.png" alt="Imagem 5">
+                <figcaption class="text5"><p>Ciência de Dados</p></figcaption>
+            </figure>
+        </div>
+        
+        <h1 class="introduction">-- Introdução --</h1>
+
+        <div id="content">
+            <p id="intro" class="intro">
+                Análise e Desenvolvimento de Sistemas (ADS) é uma área da tecnologia da informação focada na criação, implementação e manutenção 
+                de software e sistemas de informação. Com o objetivo de desenvolver soluções de software que atendam às necessidades específicas 
+                dos usuários e organizações, garantindo que os sistemas sejam eficientes, eficazes e de alta qualidade. O "ADS" é uma área 
+                abrangente com diversas demandas no mercado de trabalho e que contínua a crescer exponencialmente no ramo da tecnologia. 
+            </p>
+        </div>
+        
+        <br>
+
+        <h3 class="alg">-- Algoritmo --</h3>
+
+        <h3 class="alg2">-- O que é um algoritmo? --</h3>
+
+        <p class="al">
+            Um algoritmo é um conjunto de instruções ou regras bem definidas e ordenadas, que são seguidas para realizar uma 
+            tarefa ou resolver um problema específico. Em termos mais simples, um algoritmo é como uma receita de cozinha, onde cada passo deve 
+            ser executado em uma sequência específica para obter o resultado desejado. 
+        </p>
+
+        <br><br>
+
+        <h3 class="alg3">-- Características de um Algoritmo --</h3>
+
+        <p class="al2">
+            1.Finitude: Um algoritmo deve ter um número finito de passos. Ele deve chegar a um fim, ou seja, não pode ser infinito. 
+            <br><br>
+            2.Definição: Cada passo do algoritmo deve ser claramente definido e não ambíguo. 
+            <br><br>
+            3.Entrada: Um algoritmo pode ter zero ou mais entradas, que são os dados iniciais fornecidos para ele. 
+            <br><br>
+            4.Saída: Um algoritmo deve produzir pelo menos uma saída, que é o resultado do processamento das entradas. 
+            <br><br>
+            5.Eficácia: Os passos do algoritmo devem ser básicos o suficiente para serem executados, em princípio, por uma pessoa usando apenas papel e lápis. 
+        </p>
+
+        <!-- Botão que volta para o início da página -->
+        <button id="scrollToTopBtn" onclick="scrollToTop()">
+            &#8679; <!-- Código da seta para cima -->
+        </button>
+
+        <script src="script.js"></script>
+
+        <br><br><br><br>
+
+        <footer>
+            <p class="Copyright">Feito por: João Pedro - Copyright© - 2024</p>
+        </footer>
+        
+    </body>
+</html>

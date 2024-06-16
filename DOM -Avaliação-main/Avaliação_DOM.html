@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Document</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <h1 class="welcome">-- BEM VINDO! --</h1>
+    </header>
+    <body>
+        <!--SELEÇÃO-->
+        <div class="selection">
+            <p>Digite o nome do jogo:</p>
+            <input type="text" id="game">
+
+            <p>Digite o gênero do seu jogo:</p>
+            <input type="text" id="genre">
+
+            <p>Digite o nome do protagonista do jogo:</p>
+            <input type="text" id="character">
+
+            <br><br>
+            <button onclick="addElements()">ADICIONAR</button>
+        </div>
+
+        <br><br><br>
+
+        <!--tabela-->
+        <table id="tabela">
+            <!--Header da tabela-->
+            <tr class="tableHeader">
+                <td>Game</td>
+                <td>Genre</td>
+                <td>Main character</td>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

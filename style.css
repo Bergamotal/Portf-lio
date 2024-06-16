@@ -1,0 +1,408 @@
+/*Index*/
+header{
+    width: 99.4%;
+    height: 75px;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121012;
+    color: #006414;
+}
+
+.introduction{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #009929;
+}
+
+.intro{
+    text-align: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: white;
+}
+
+.intro-img{
+    height: 43px;
+    cursor: pointer;
+    display: flex; 
+    justify-content: start;
+}
+
+.alg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #009929;
+}
+
+.alg2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: #5ccb5f;
+}
+
+.alg3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: #5ccb5f;;
+}
+
+.al{
+    text-align: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: white;
+}
+
+.al2{
+    text-align: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: white;
+}
+
+.portfólio{
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.prof{
+    height: 43px;
+    cursor: pointer;
+    display: flex; 
+    justify-content: end;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(back.png);
+}
+
+figcaption {
+    margin-top: 8px; /* Espaço entre a imagem e a legenda */
+    font-size: 15px;
+    color: #5ccb5f;
+}
+
+.img1{
+    height: 113px;
+    cursor: pointer;
+}
+
+.img2{
+    height: 113px;
+    cursor: pointer;
+}
+
+.img3{
+    height: 113px;
+    cursor: pointer;
+}
+
+.img4{
+    height: 113px;
+    cursor: pointer;
+}
+
+.img5{
+    height: 113px;
+    cursor: pointer;
+}
+
+/*Estilização*/
+.style1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #009929;
+}
+
+.style2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: #5ccb5f;
+}
+
+.style3{
+    text-align: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: white;
+}
+
+.style4{
+    text-align: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: #5ccb5f;
+}
+
+.image-container {
+    gap: 25px; /* Espaço entre as imagens */
+    display: flex;
+    justify-content: center; 
+    size: 20px;
+    font-family: sans-serif;
+}
+
+.image-container2{
+    gap: 530px; /* Espaço entre as imagens */
+    display: flex;
+    justify-content: center; 
+    size: 20px;
+    font-family: sans-serif;
+}
+
+.image-container3{
+    gap: 250px; /* Espaço entre as imagens */
+    display: flex;
+    justify-content: center; 
+    size: 20px;
+    font-family: sans-serif;
+}
+
+.image-container4{
+    gap: 19px; /* Espaço entre as imagens */
+    display: flex;
+    justify-content: center; 
+    size: 20px;
+    font-family: sans-serif;
+}
+
+.image-container5{
+    gap: 0px; /* Espaço entre as imagens */
+    display: flex;
+    justify-content: center; 
+    size: 20px;
+    font-family: sans-serif;
+}
+
+.image-container6{
+    gap: 800px; /* Espaço entre as imagens */
+    display: flex;
+    justify-content: center; 
+    size: 20px;
+    font-family: sans-serif;
+}
+
+.bord{
+    border-radius: 5px;
+}
+
+.bord2{
+    height: 400px;
+    border-radius: 5px;
+}
+
+/*Sobre mim*/
+.me{
+    height: 250px;
+    border-radius: 200px;
+}
+
+.git{
+    color: #5ccb5f;
+}
+
+.Git{
+    height: 200px;
+}
+
+
+/*Automação industrial*/
+.tinkercad{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ard{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.wok{
+    cursor: pointer;
+    border-radius: 5px; 
+}
+.esp{
+    height: 150px;
+    border-radius: 10px;
+}
+
+.VOIDS{
+    height: 300px;
+    border-radius: 2px;
+}
+
+.VOIDL{
+    height: 300px;
+    border-radius: 2px;
+}
+
+.pinmode{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: #5ccb5f;
+}
+
+.pinMode{
+    height: 50px;
+    border-radius: 3px;
+}
+
+.DW{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: #5ccb5f;    
+}
+
+.digital{
+    height: 30px;
+    border-radius: 3px;
+}
+
+.AW{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: #5ccb5f;    
+}
+
+.analog{
+    height: 30px;
+    border-radius: 3px;
+}
+
+.Delay{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: #5ccb5f;
+}
+
+.delay{
+    height: 40px;
+    border-radius: 3px;
+}
+
+.semáforo{
+    height: 300px;
+    border-radius: 3px;
+}
+
+textarea#code{
+    resize: none;
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.git-ta{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; 
+    color: #5ccb5f;
+}
+
+
+/*Desenvolvimento Web*/
+.VSC{
+    height: 90px;
+}
+
+.html{
+    height: 250px;
+}
+
+.css{
+    height: 250px; 
+}
+
+.js{
+    height: 200px; 
+}
+
+/*Banco de Dados*/
+.types{
+    height: 450px;
+    border-radius: 5px;
+}
+
+.der{
+    height: 250px;
+    border: 5px;
+}
+
+/*Linguagem de Programação*/
+.op{
+    height: 600px;
+    border-radius: 5px; 
+}
+
+.if{
+    height: 300px;
+    border-radius: 5px;
+}
+
+.if2{
+    height: 300px;
+    border-radius: 5px;
+}
+
+.array2{
+    height: 150px;
+    border-radius: 5px;
+}
+
+
+/*Ciência de Dados*/
+.cd{
+    height: 400px;
+}
+
+.cd2{
+    height: 400px;
+}
+
+/*Copyright*/
+.Copyright{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}  
+
+/* Botão para subida*/
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #009929;
+    color: white;
+    border: black;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1000;
+    display: none; /* Inicialmente oculto */
+    transition: opacity 0.3s;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #007a1e;
+  }
+  

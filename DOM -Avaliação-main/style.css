@@ -1,0 +1,97 @@
+header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("the-ruins-undertale-pixel-moewalls-com.gif");
+    background-position: center;
+    background-size: cover;
+    color: white;   
+}
+
+.welcome {
+    font-family: pixel;
+    font-size: 60px;
+}
+
+.editButton {
+    padding: 3px;
+    margin-left: 15px;
+}
+
+.selection {
+    border: 3px solid;
+    border-radius: 10px;
+    font-family: ComicSans;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 0px 15px 20px 15px;
+    background-color: rgba(188, 135, 238, 0.7);
+}
+
+.sideButtons {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+input {
+    width: 80%;
+}
+
+button {
+    border: dashed;
+    background-color: rgb(154, 67, 235);
+    font-family: ComicSans;
+    padding: 3px 3px 3px 3px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(126, 0, 245);
+    cursor: pointer;
+}
+
+table {
+    font-family: pixel;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    border: 3px solid;
+    background-color: rgba(216, 190, 240, 0.9);
+    color: black;
+}
+
+.tableHeader {
+    background-color: rgba(172, 84, 255, 0.5);
+}
+
+td {
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    width: 15%;
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(PixelifySans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: ComicSans;
+    src: url(COMICSANS.TTF);
+}
